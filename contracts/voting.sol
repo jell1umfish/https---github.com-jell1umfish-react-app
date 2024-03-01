@@ -8,6 +8,8 @@ contract Voting {
         uint256 voteCount;
     }
 
+    //ASDA
+
     Candidate[] public candidates;
     address owner;
     mapping(address => bool) public voters;
